@@ -11,4 +11,13 @@ string [] arr1 = new string [4] {"Hello","2","world",":-)"};
 string [] arr2 = new string [5] {"1234","1567","-2","computer","science"};
 string [] arr3 = new string [3] {"Russia","Denmark","Kazan"};
 
-
+int CountArr(string [] arr){
+    int count = 0;
+    
+    for(int i = 0; i < arr.Length; i++){
+        if(arr[i].Length <= 3){
+        count++;
+        }
+    }
+    return count;
+}
