@@ -11,6 +11,14 @@ string [] arr1 = new string [4] {"Hello","2","world",":-)"};
 string [] arr2 = new string [5] {"1234","1567","-2","computer","science"};
 string [] arr3 = new string [3] {"Russia","Denmark","Kazan"};
 
+
+NewArr(arr1,CountArr(arr1));
+Console.WriteLine();
+NewArr(arr2,CountArr(arr2));
+Console.WriteLine();
+NewArr(arr3,CountArr(arr3));
+Console.WriteLine();
+
 int CountArr(string [] arr){
     int count = 0;
     
