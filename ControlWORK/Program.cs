@@ -21,3 +21,16 @@ int CountArr(string [] arr){
     }
     return count;
 }
+
+void NewArr(string [] arr, int count){
+
+    string [] newArray = new string [count];
+    int j = 0;
+    for(int i = 0; i < arr.Length; i++){
+        if(arr[i].Length <= 3){
+        newArray[j] = arr[i];
+        Console.Write($"{newArray[j]} ");
+        }
+    }
+    
+}
